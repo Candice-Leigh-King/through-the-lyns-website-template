@@ -7,7 +7,7 @@ text-colors:
   links-hover_color: '#FDFAF0'
   hamburger_color: '#FDFAF0'
 background-colors:
-  image-and-text-background_color: '#e4dddf'
+  textarea-background_color: '#fff'
   projects-background_color: '#e3d6cb'
   main-project-background_color: '#e3d6cb'
   projects-text-background_color: '#eae1dc'

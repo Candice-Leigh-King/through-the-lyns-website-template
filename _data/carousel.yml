@@ -9,6 +9,7 @@ colors:
 fonts:
   carousel-heading-font:
   _select_data:
+   fonts:
     - Cyrene
     - La Obrige
     - Lineal Simples

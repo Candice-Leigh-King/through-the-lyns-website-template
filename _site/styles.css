@@ -45,7 +45,7 @@ font-family: 'Shrikhand', cursive;*/
   }
 
   /* FONTS  */
-  @font-face 
+@font-face 
   {
   font-family: Cyrene;
   src: url(/fonts/cyrene.otf);

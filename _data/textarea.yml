@@ -1,0 +1,12 @@
+colors:
+  textarea-background-color: '#BCCACA'
+  carousel-text-background-color:
+  carousel-border-color: '#859F9F'
+  carousel-heading-color: '#FFFFFF'
+  carousel-sunheading-color: '#2f3031'
+  carousel-text-color: 
+  carousel-symbols-color: '#859F9F'
+fonts:
+  carousel-heading-font: Shrikhand, cursive
+  carousel-subheading-font: Wonderful Branding
+    

@@ -11,7 +11,7 @@ background-colors:
   projects-background_color: '#e3d6cb'
   main-project-background_color: '#e3d6cb'
   projects-text-background_color: '#eae1dc'
-  carousel-background_color: '#e3d6cb'
+  carousel-background_color: '#BCCACA'
 form-colors:
   form-background_color: '#e4dddf'
   form-arche-background_color: '#ebebeb'

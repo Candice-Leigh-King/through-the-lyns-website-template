@@ -6,6 +6,7 @@ light blue = #BCCACA
 white = #fff
 orange = #D2966D
 beige = #EFEBE6
+black= #
 
 FONTS
 font-family: Wonderful Branding;
@@ -122,7 +123,7 @@ font-family: 'Shrikhand', cursive;*/
 
   
 .dark-bg      {  background-color: #CE967A;     }
-.light-bg     {  background-color: #FAE6D4; }
+.light-bg     {  background-color: #BCCACA; }
 .white-bg     {  background-color: #fff}
 .featured-bg  {  background-color: #F8DCC2;    }
 
@@ -135,6 +136,7 @@ font-family: 'Shrikhand', cursive;*/
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   .radius {border-radius: 500px 500px 0px 0px;}
+  .radius-leaf {border-radius: 400px 0px 400px 0px;}
   .bottom-radius
   {border-radius: 0px 0px 310px 310px;}
   .circle {border-radius: 500px;}
@@ -189,7 +191,7 @@ font-family: 'Shrikhand', cursive;*/
     line-height: 1;
     margin-bottom: 0.8rem;
     font-weight: 400;
-    color: #D2966D;
+    color: #FFFFF;
     }
 
  h2, h3, {font-family: 'Shrikhand', cursive;}    
@@ -205,7 +207,7 @@ font-family: 'Shrikhand', cursive;*/
     font-family: 'Shrikhand', cursive;
     }
   
-  h2  { font-size: 2.2rem;  }
+  h2  { font-size: 4rem;  }
   h3  { font-size: 1.8rem;  }
   h4  { font-size: 1.4rem;  }
   h5  { font-size: 1.2rem;  }
@@ -230,8 +232,50 @@ font-family: 'Shrikhand', cursive;*/
   margin-bottom:0;
   }
 
+/* ----------------CAROUSEL---------------- */
 
-/* header */
+.carousel-background-color
+  {background-color: #BCCACA;}
+
+.carousel-textarea-background-color
+  {background-color: #FFFFFF;}
+
+.carousel-border-color 
+  {border: solid 4px #859F9F; }
+
+.carousel-heading-color
+  {color:#fff;} 
+
+.carousel-heading-font 
+  {font-family: 'Shrikhand', cursive;}  
+
+.carousel-subheading-color 
+  {color: #2f3031;}
+
+.carousel-subheading-font 
+  {font-family: 'Wonderful Branding';}  
+
+.carousel-text-color 
+  {color: #2f3031;}  
+  
+.carousel-text-font 
+  {font-family: 'Poppins', sans-serif;}
+
+.carousel-symbols-color
+ {
+  font-size: 2rem; 
+  color:  #859F9F;
+ }
+
+.carousel-text-color
+  {
+  color: #2f3031; 
+  } 
+ 
+ 
+
+
+/*------------------ HEADER ----------------*/
 
 .hamburger {
   top: 0;

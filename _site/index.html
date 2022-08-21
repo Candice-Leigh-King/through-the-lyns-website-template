@@ -86,7 +86,20 @@
             --projectsBackgroundColor: #e3d6cb;
             --mainProjectBackgroundColor: #e3d6cb;
             --projectsTextBackgroundColor: #eae1dc;
-            --carouselBackgroundColor: #e3d6cb;
+            /* -----------------CAROUSEL--------------- */
+            --carouselBackgroundColor: #BCCACA;
+            --carouselTextareaBackgroundColor: #FFFFFF;
+            --carouselBorderColor: #859F9F;
+            --carouselSymbolsColor: #859F9F;
+            --carouselHeadingColor: #FFFFFF;
+            --carouselHeadingFont: Shrikhand, cursive;
+            --carouselSubheadingColor: #2f3031;
+            --carouselSubheadingFont: Wonderful Branding;
+            --carouselTextColor: #2f3031;
+            --carouselTextFont: Poppins, sans-serif;
+
+            /* --------------TEXTAREA------------------ */
+            ---textareaBackgroundColor: #BCCACA;
             --formBackgroundColor: #e4dddf;
             --formArcheBackgroundColor: #ebebeb;
             --formTextColor: #7c7a79;
@@ -131,8 +144,20 @@
           .main-project-background_color {background-color: var(--mainProjectBackgroundColor);}
 
           .projects-text-background_color {background-color: var(--projectsTextBackgroundColor);}
+      
+    
+        /*---------------- CAROUSEL ---------------*/
+          .carousel-background-color {background-color: var(--carouselBackgroundColor);}
+          .carousel-textarea-background-color {background-color: var(--carouselTextareaBackgroundColor);}
+          .carousel-heading-color {color: var(--carouselHeadingColor);}
+          .carousel-heading-font {font-family: var(--carouselHeadingFont);}
+          .carousel-subheading-color {color: var(--carouselSubheadingColor);}
+          .carousel-subheading-font {font-family: var(--carouselSubheadingFont);}
+          .carousel-border-color {border: solid 4px var(--carouselBorderColor);}
+          .carousel-symbols-color {color: var(--carouselSymbolsColor);}
 
-          .carousel-background_color {background-color: var(--carouselBackgroundColor);}
+          /* ----------------TEXTAREA--------------- */
+          .textarea-background-color  {background-color: var(--textareaBackgroundColor);}
 
           .form-background_color {background-color: var(--formBackgroundColor);}
 
@@ -300,40 +325,43 @@
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[2]">
         <span class="cms-editor-button"></span>
-      <section class="grid-center padded-bottom carousel-background_color featured-bg banner" style="background-image: url('');">
+      <section class="grid-center padded carousel-background-color banner" style="background-image: url('');">
   <div class="col-12 padded-bottom" id="reviews">
-    <h2>Reviews</h2>
+    <h2 class="carousel-heading-color carousel-heading-font">Reviews</h2>
   </div>
 
-  <div class=" col-12 padded-sides grid-center one-time">
+  <div class=" grid col-9_sm-12 padded-sides  one-time">
     
-    <div class="grid-center centered">
-      <div class="col-12-middle padded-review">
-        <hr />
-        <p>Candy & Jonty took photos of my holiday home in Diani Beach during their stay with us. Working with them was great from start to finish. They offered great advice on best shots for different uses (social media, advertisement, website etc). <br />
-        <span> ★★★★★ </span>
-        </p>
-        <p class="centered"> Ann Rietjens, owner of Zarafa House, Kenya </p>
+    <div class="grid-center radius-leaf carousel-border-color carousel-textarea-background-color white-bg centered">
+      <div class="grid-center padded ">
+        <div class = "col-9 padded ">
+          <p class="carousel-text-color carousel-text-font">Candy & Jonty took photos of my holiday home in Diani Beach during their stay with us. Working with them was great from start to finish. They offered great advice on best shots for different uses (social media, advertisement, website etc). <br />
+            <span class="carousel-symbols-color"> ★★★★★ </span>
+            </p>
+            <p class="centered carousel-subheading-font carousel-subheading-color"> Ann Rietjens, owner of Zarafa House, Kenya </p>
+        </div>
       </div>
     </div>
     
-    <div class="grid-center centered">
-      <div class="col-12-middle padded-review">
-        <hr />
-        <p>It was honestly a great experience hosting you and your partnet at Tembo House Hotel.<br>Top professionals, very friendly and open to idea's, charmed us all the very first moment you entered.<br>We have worked with many social media bloggers, by far you and your partner were the top we have come across, a true pleasure to work with. <br>Thank you once again for giving us the opportunity to work with you, and providing us with great content, from shots to videography to promote our hotel. <br />
-        <span> ★★★★★ </span>
-        </p>
-        <p class="centered"> - Rahim Amigo ,Managing Director of Tembo House, Zanzibar </p>
+    <div class="grid-center radius-leaf carousel-border-color carousel-textarea-background-color white-bg centered">
+      <div class="grid-center padded ">
+        <div class = "col-9 padded ">
+          <p class="carousel-text-color carousel-text-font">It was honestly a great experience hosting you and your partnet at Tembo House Hotel.<br>Top professionals, very friendly and open to idea's, charmed us all the very first moment you entered.<br>We have worked with many social media bloggers, by far you and your partner were the top we have come across, a true pleasure to work with. <br>Thank you once again for giving us the opportunity to work with you, and providing us with great content, from shots to videography to promote our hotel. <br />
+            <span class="carousel-symbols-color"> ★★★★★ </span>
+            </p>
+            <p class="centered carousel-subheading-font carousel-subheading-color"> - Rahim Amigo ,Managing Director of Tembo House, Zanzibar </p>
+        </div>
       </div>
     </div>
     
-    <div class="grid-center centered">
-      <div class="col-12-middle padded-review">
-        <hr />
-        <p>Candy, Jonty and Loris did an amazing job on our NamKhan Project & Ecolodge property. For 2 weeks they were very professional, adapting to our booking schedule, weather conditions and staff presence. I would highly recommend the Candy and the King team as they were incredible, their work resulted in additional bookings, increased social media exposure and social media skills. <br />
-        <span> ★★★★★ </span>
-        </p>
-        <p class="centered"> - Saita Kiatikhema, General Manager of Namkhan Eco Lodge, Laos  </p>
+    <div class="grid-center radius-leaf carousel-border-color carousel-textarea-background-color white-bg centered">
+      <div class="grid-center padded ">
+        <div class = "col-9 padded ">
+          <p class="carousel-text-color carousel-text-font">Candy, Jonty and Loris did an amazing job on our NamKhan Project & Ecolodge property. For 2 weeks they were very professional, adapting to our booking schedule, weather conditions and staff presence. I would highly recommend the Candy and the King team as they were incredible, their work resulted in additional bookings, increased social media exposure and social media skills. <br />
+            <span class="carousel-symbols-color"> ★★★★★ </span>
+            </p>
+            <p class="centered carousel-subheading-font carousel-subheading-color"> - Saita Kiatikhema, General Manager of Namkhan Eco Lodge, Laos  </p>
+        </div>
       </div>
     </div>
     
@@ -343,7 +371,7 @@
     
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[3]">
         <span class="cms-editor-button"></span>
-      <section class="grid-middle padded textarea-background_color white-bg banner"  id="about">
+      <section class="grid-middle padded textarea-background-color white-bg banner"  id="about">
   <div class="col-8_sm-12 left reveal padded fade-left" id="">
     <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus officiis veritatis nam suscipit error harum vero ut, rerum iure doloremque, magnam unde distinctio autem soluta illo perferendis, ex qui nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fugit voluptatum maxime illum minus enim consequatur quasi dolores perspiciatis suscipit, unde assumenda distinctio odio deserunt. </p>
   </div>

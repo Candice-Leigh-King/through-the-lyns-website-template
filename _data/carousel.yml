@@ -9,27 +9,27 @@ colors:
 fonts:
   carousel-heading-font:
   _select_data:
-      - Cyrene
-      - La Obrige
-      - Lineal Simples
-      - Maglony
-      - Mak
-      - Misto
-      - Wonderful Branding
-      - Open Sans, sans-serif
-      - Shrikhand, cursive
-      - Dream Avenue
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+    - Cyrene
+    - La Obrige
+    - Lineal Simples
+    - Maglony
+    - Mak
+    - Misto
+    - Wonderful Branding
+    - Open Sans, sans-serif
+    - Shrikhand, cursive
+    - Dream Avenue
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
   carousel-subheading-font: Wonderful Branding
   carousel-text-font: Poppins, sans-serif
 

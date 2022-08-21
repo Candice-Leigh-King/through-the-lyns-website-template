@@ -27,61 +27,12 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Shrikhand', cursive;*/
 
-
-  @font-face 
-    {
-    font-family: Cyrene;
-    src: url(/fonts/cyrene.otf);
-    }
-  
-  @font-face 
-    {
-    font-family: La Obrige;
-    src: url(/fonts/la-obrige.otf);
-    }
-  
-  @font-face 
-    {
-    font-family: Lineal Simples;
-    src: url(/fonts/lineal-simples.ttf);
-    }
-  
-  @font-face 
-    {
-    font-family: Maglony;
-    src: url(/fonts/maglony.otf);
-    }
-  
-  @font-face 
-    {
-    font-family: Mak;
-    src: url(/fonts/mak.otf);
-    }
-  
-  @font-face 
-    {
-    font-family: Misto;
-    src: url(/fonts/misto.ttf);
-    }
-  
-  
-  @font-face 
-    {
-    font-family: Dream Avenue;
-    src: url(/fonts/dream-avenue.otf);
-    }
-
-  @font-face 
-    {
-    font-family: Wonderful Branding;
-    src: url(/fonts/wonderful-branding.otf);
-    }
   
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+    }
   
   html {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
@@ -91,6 +42,56 @@ font-family: 'Shrikhand', cursive;*/
   img {
     max-width: 100%; /* this ensures images never break their container */
     height: auto;
+  }
+
+  /* FONTS  */
+  @font-face 
+  {
+  font-family: Cyrene;
+  src: url(/fonts/cyrene.otf);
+  }
+
+@font-face 
+  {
+  font-family: La Obrige;
+  src: url(/fonts/la-obrige.otf);
+  }
+
+@font-face 
+  {
+  font-family: Lineal Simples;
+  src: url(/fonts/lineal-simples.ttf);
+  }
+
+@font-face 
+  {
+  font-family: Maglony;
+  src: url(/fonts/maglony.otf);
+  }
+
+@font-face 
+  {
+  font-family: Mak;
+  src: url(/fonts/mak.otf);
+  }
+
+@font-face 
+  {
+  font-family: Misto;
+  src: url(/fonts/misto.ttf);
+  }
+
+
+@font-face 
+  {
+  font-family: Dream Avenue;
+  src: url(/fonts/dream-avenue.otf);
+  }
+
+@font-face 
+  {
+  font-family: Wonderful Branding;
+  src: url(/fonts/wonderful-branding.otf);
   }
   
   body {
@@ -102,7 +103,6 @@ font-family: 'Shrikhand', cursive;*/
   color: #4c4c4c;
   line-height: 2;
   overflow-x: hidden;
-  
   }
   
    /* this overrides the default padding and margin on gridlex elements */

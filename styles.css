@@ -28,46 +28,54 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Shrikhand', cursive;*/
 
 
-@font-face {
+  @font-face 
+    {
     font-family: Cyrene;
     src: url(/fonts/cyrene.otf);
-  }
+    }
   
-  @font-face {
+  @font-face 
+    {
     font-family: La Obrige;
     src: url(/fonts/la-obrige.otf);
-  }
+    }
   
-  @font-face {
+  @font-face 
+    {
     font-family: Lineal Simples;
     src: url(/fonts/lineal-simples.ttf);
-  }
+    }
   
-  @font-face {
+  @font-face 
+    {
     font-family: Maglony;
     src: url(/fonts/maglony.otf);
-  }
+    }
   
-  @font-face {
+  @font-face 
+    {
     font-family: Mak;
     src: url(/fonts/mak.otf);
-  }
+    }
   
-  @font-face {
+  @font-face 
+    {
     font-family: Misto;
     src: url(/fonts/misto.ttf);
-  }
+    }
   
   
-  @font-face {
+  @font-face 
+    {
     font-family: Dream Avenue;
     src: url(/fonts/dream-avenue.otf);
-  }
+    }
 
-  @font-face {
+  @font-face 
+    {
     font-family: Wonderful Branding;
     src: url(/fonts/wonderful-branding.otf);
-  }
+    }
   
   * {
     padding: 0;
@@ -191,10 +199,10 @@ font-family: 'Shrikhand', cursive;*/
     line-height: 1;
     margin-bottom: 0.8rem;
     font-weight: 400;
-    color: #FFFFF;
+    color: #FFFFFF;
     }
 
- h2, h3, {font-family: 'Shrikhand', cursive;}    
+ h2, h3 {font-family: 'Shrikhand', cursive;}    
  h4, h5, h6 {font-family: Wonderful Branding;}
   
   h1 {
@@ -257,7 +265,7 @@ font-family: 'Shrikhand', cursive;*/
 
 .carousel-text-color 
   {color: #2f3031;}  
-  
+
 .carousel-text-font 
   {font-family: 'Poppins', sans-serif;}
 
@@ -309,7 +317,7 @@ font-family: 'Shrikhand', cursive;*/
 }
 
 .mobile-menu a:hover {color: #FDFAF0;}
-.mobile-menu p:hover {color: #FDFAF0s;}
+.mobile-menu p:hover {color: #FDFAF0;}
 
 .cross {cursor: pointer;}
 
@@ -479,7 +487,7 @@ option
   display: block;
   width: 100%;
   font-size: 1rem;
-  vertical-align: top;
+  /* vertical-align: top; */
   font-family: 'Poppins', sans-serif;
   background-color: transparent;
   border: none;

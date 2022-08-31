@@ -1,12 +1,9 @@
 colors:
-  textarea-background-color: '#BCCACA'
-  carousel-text-background-color:
-  carousel-border-color: '#859F9F'
-  carousel-heading-color: '#FFFFFF'
-  carousel-sunheading-color: '#2f3031'
-  carousel-text-color: 
-  carousel-symbols-color: '#859F9F'
+  textarea-background-color: '#ffffff'
+  textarea-text-color: '#2f3031'
+  textarea-subheading-color: '#d2966d'
+  textarea-top-line-color: '#d2966d'
+  textarea-left-line-color: '#d2966d'
 fonts:
-  carousel-heading-font: Shrikhand, cursive
-  carousel-subheading-font: Wonderful Branding
-    
+  textarea-subheading-font: Brushwell
+  textarea-text-font: Poppins, sans-serif
